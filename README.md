@@ -16,18 +16,18 @@ farmeworks
 5. libsqlite3.dylib
 
 
-Coding prerequesties
+#Coding prerequesties
 
-1: In info.plist
+# In info.plist
 
-Add FacebookAppID  field and put the Facebook app id regarding this field.
-Add url scheme with url  "fbyourfacebookappID".
+1. Add FacebookAppID  field and put the Facebook app id regarding this field.
+
+2. Add url scheme with url  "fbyourfacebookappID".
 
 ![ScreenShot](https://cloud.githubusercontent.com/assets/4582872/3380730/f25fdba6-fc0d-11e3-8821-b0b1725bd4ab.png)
   
-Coding part:
 
-Add this in Appdelegate.m
+#Add this in Appdelegate.m
 
 - (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
@@ -38,7 +38,7 @@ Add this in Appdelegate.m
 }
 
 
-//Methods
+#Methods
 
 To sahred instance 
 +(instancetype) sharedInstance;
