@@ -46,16 +46,16 @@ To sahred instance
 
 /* object permission are required to get data fron fb server use only desire permission get detail on this Link - https://developers.facebook.com/docs/facebook-login/permissions/ */
 
-1. <b>-(void) setPermissions:(NSArray *)permissions;</b>
+ <b>-(void) setPermissions:(NSArray *)permissions;</b>
 
 //Method to get user info data returns in block as a dictionary
-2. <b>-(void) getUserInfo:(completion)completionBlock;</b>
+<b>-(void) getUserInfo:(completion)completionBlock;</b>
 
 //Method to post on facebook returns post id.
-3. <b>-(void) postwithName:(NSString *)name caption:(NSString *)caption description:(NSString *)description link:(NSString *)link image:(NSString *)imageurl comptlitionBlock:(completion)blk;</b>
+ <b>-(void) postwithName:(NSString *)name caption:(NSString *)caption description:(NSString *)description link:(NSString *)link image:(NSString *)imageurl comptlitionBlock:(completion)blk;</b>
 
 //Method to login with facebook and returns access token
-4. <b>-(void) loginwithComplitionBloack:(completion)blk;</b>
+ <b>-(void) loginwithComplitionBloack:(completion)blk;</b>
 
 //Delete seesion and cookies
-5. <b>-(void) logOut;</b>
+ <b>-(void) logOut;</b>
