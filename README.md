@@ -22,8 +22,9 @@ Coding prerequesties
 
 Add FacebookAppID  field and put the Facebook app id regarding this field.
 Add url scheme with url  "fbyourfacebookappID".
-<img src="https://cloud.githubusercontent.com/assets/4582872/3380730/f25fdba6-fc0d-11e3-8821-b0b1725bd4ab.png" alt="ScreenShot" height="42" width="42"> 
-</br>
+
+![ScreenShot](https://cloud.githubusercontent.com/assets/4582872/3380730/f25fdba6-fc0d-11e3-8821-b0b1725bd4ab.png)
+  
 Coding part:
 
 Add this in Appdelegate.m
