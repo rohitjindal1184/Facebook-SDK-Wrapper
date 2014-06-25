@@ -22,7 +22,6 @@ Coding prerequesties
 
 Add FacebookAppID  field and put the Facebook app id regarding this field.
 Add url scheme with url  "fbyourfacebookappID".
-<img src="https://www.dropbox.com/s/rc36ae5psvi1fbo/Screen%20Shot%202014-06-25%20at%207.12.56%20AM.png" alt="Smiley face" height="42" width="42">
 </br>
 Coding part:
 
