@@ -3,6 +3,8 @@ Facebook-SDK-Wrapper
 
 Facebook SDK Wrapper
 
+You only need to call the method of the class no need to manage the FBSession object because for Naive developer it will cause crashes in app. Just create a shared intanse of this class a use it with mehods. <b>This is Singleton class </b>
+
 Prerequesties :
 
 farmeworks
@@ -35,6 +37,10 @@ Add this in Appdelegate.m
 
 
 //Methods
+
+To sahred instance 
++(instancetype) sharedInstance;
+
 
 /* object permission are required to get data fron fb server use only desire permission get detail on this Link - https://developers.facebook.com/docs/facebook-login/permissions/ */
 
